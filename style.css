@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.wrap {
+
+}
+.userList {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.userList div {
+    width: 250px;
+    padding: 1rem;
+}
+.userList img {
+    width: 100%;
+}
+.userList li {
+    display: block;
+    margin : 1rem;
+    border: 1px black solid;
+    overflow-wrap: break-word;
+}
